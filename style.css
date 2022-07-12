@@ -1,0 +1,246 @@
+header{
+	background: #35A0A0
+;
+}
+h1{
+	font-size: 20px;
+}
+
+.mapa{
+	text-align: right;
+	width: 820px;
+	height: 500px;
+  border-radius: 30px;
+  margin-top: 0px;
+}
+.plot{
+	text-align: right;
+  width: 400px;
+  margin-top: 0px;
+}
+.body{
+  background-color: #286565;
+}
+/*.div campos,mapa,plot{ 
+	display: inline-block;
+  border-style: outset;
+}*/
+.divs{
+  border: solid;
+  display: block;
+}
+
+  .ocultar{
+    display: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.voyager {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  background-color: #E2E9F3;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .voyager .SplitPane {
+    position: relative !important; }
+  .voyager .right {
+    float: right; }
+  .voyager .hidden {
+    visibility: hidden; }
+  .voyager h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    margin: 0; }
+  .voyager h2 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    color: #38425d; }
+  .voyager h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    color: #38425d; }
+  .voyager h4 {
+    font-size: 12px;
+    margin: 0 0 6px; }
+  .voyager .modal-header {
+    background-color: #f1f4f9;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin: 3px 3px 0 0;
+    padding: 8px;
+    margin-top: 0;
+    margin-right: 0; }
+  .voyager .pane {
+    padding: 8px; }
+  .voyager .persist-scroll {
+    /*
+      Prevent scroll bars from being hidden for OS X.
+      http://stackoverflow.com/questions/7855590/how-can-i-prevent-scroll-bars-from-being-hidden-for-os-x-trackpad-users-in-webkit
+    */ }
+    .voyager .persist-scroll::-webkit-scrollbar {
+      -webkit-appearance: none; }
+    .voyager .persist-scroll::-webkit-scrollbar:vertical {
+      width: 11px; }
+    .voyager .persist-scroll::-webkit-scrollbar:horizontal {
+      height: 11px; }
+    .voyager .persist-scroll::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 2px solid white;
+      /* should match background, can't be transparent */
+      background-color: rgba(0, 0, 0, 0.5); }
+    .voyager .persist-scroll::-webkit-scrollbar-track {
+      background-color: transparent;
+      border-radius: 8px; }
+  .voyager div, .voyager span {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+  .voyager .fa.fa-times, .voyager .fa.fa-search, .voyager .fa.fa-pencil, .voyager .fa.fa-caret-down, .voyager .fa.fa-times, .voyager .fa.fa-plus, .voyager .fa.fa-filter {
+    padding: 2px 3px 1px;
+    border-radius: 3px; }
+    .voyager .fa.fa-times:hover, .voyager .fa.fa-search:hover, .voyager .fa.fa-pencil:hover, .voyager .fa.fa-caret-down:hover, .voyager .fa.fa-times:hover, .voyager .fa.fa-plus:hover, .voyager .fa.fa-filter:hover {
+      color: #fff;
+      background-color: #999; }
+  .voyager .react-spinners--clip {
+    margin: auto; }
+  .voyager .chart > canvas, .voyager .chart > svg {
+    margin: auto;
+    display: block; }
+  .voyager .chart {
+    margin: auto; }
+  .voyager .Resizer {
+    opacity: .2;
+    z-index: 1;
+    box-sizing: border-box;
+    background-clip: padding-box; }
+  .voyager .Resizer:hover {
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease; }
+  .voyager .Resizer.horizontal {
+    height: 11px;
+    margin: -5px 0;
+    border-top: 5px solid rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    cursor: row-resize;
+    width: 100%; }
+  .voyager .Resizer.horizontal:hover {
+    border-top: 5px solid rgba(0, 0, 0, 0);
+    border-bottom: 5px solid rgba(0, 0, 0, 0); }
+  .voyager .Resizer.vertical {
+    width: 11px;
+    margin: 0 -5px;
+    border-left: 5px solid rgba(255, 255, 255, 0);
+    border-right: 5px solid rgba(255, 255, 255, 0);
+    cursor: col-resize; }
+  .voyager .Resizer.vertical:hover {
+    overflow-y: hidden;
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-right: 5px solid rgba(0, 0, 0, 0); }
+  .voyager .Resizer.disabled {
+    cursor: not-allowed; }
+  .voyager .Resizer.disabled:hover {
+    border-color: transparent; }
+  .voyager .vg-tooltip {
+    visibility: hidden;
+    padding: 6px;
+    border-radius: 3px;
+    position: fixed;
+    z-index: 2000;
+    font-family: sans-serif;
+    font-size: 11px;
+    /* The default look of the tooltip is the same as .light-theme
+    but it can be overwritten by .dark-theme */
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #d9d9d9;
+    color: black; }
+  .voyager .key {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #808080;
+    max-width: 150px;
+    text-align: right;
+    padding-right: 1px; }
+  .voyager .value {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+.header__header {
+  background-color: white;
+  height: 33px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.data-selector__data-selector{
+  height: 33px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mpl{
+  width: 200px;
+  height: 500px;
+}
