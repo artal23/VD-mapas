@@ -1,0 +1,88 @@
+.mycluster {
+    background-clip: padding-box;
+    border-radius: 20px;
+    background-color: rgba(181, 226, 140, 0.6);
+}
+.mycluster div {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 15px;
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+    /* background-color: rgba(110, 204, 57, 0.6); */
+}
+
+.mycluster b{
+    line-height: 30px;
+}
+
+.android-color{
+    background-color: rgba(114, 129, 246, 0.6);
+}
+
+.appeoca-color{
+    background-color: rgba(23, 69, 76, 0.6);
+}
+
+.email-color{
+    background-color: rgba(186, 194, 250, 0.6);
+}
+
+.fax-color{
+    background-color: rgba(234, 236, 253, 0.6);
+}
+
+.inhouse-color{
+    background-color: rgba(246, 114, 129, 0.6);
+}
+
+.iphone-color{
+    background-color: rgba(129, 246, 114, 0.6);
+}
+
+.mail-color{
+    background-color: rgba(41, 123, 137 0.6);
+}
+
+.mayoff-color{
+    background-color: rgba(176, 59, 23, 0.6);
+}
+
+.other-color{
+    background-color: rgba(244, 154, 36, 0.6);
+}
+
+.phone-color{
+    background-color: rgba(154, 36, 244, 0.6);
+
+}
+
+.policelsn-color{
+    background-color: rgba(212, 192, 11, 0.6);
+}
+
+.proact-color{
+    background-color: rgba(36, 244, 154, 0.6);
+}
+
+.socialmedia-color{
+    background-color: rgba(166, 107, 134, 0.6);
+}
+
+.walkin-color{
+    background-color: rgba(134, 166, 107, 0.6);
+}
+
+.web-color{
+    background-color: rgba(107, 134, 166, 0.6);
+}
+
+.xterface-color{
+    background-color: rgba(175, 70, 52, 0.6);
+}
+
+.xterneat-color{
+    background-color: rgba(250, 127, 90, 0.6);
+}
